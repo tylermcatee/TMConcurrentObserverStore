@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8DB1A4CC1DD679FB00AAE269 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1A4CB1DD679FB00AAE269 /* main.m */; };
+		8DB1A4D41DD67A0600AAE269 /* TMConcurrentObserverStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1A4D31DD67A0600AAE269 /* TMConcurrentObserverStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		8DB1A4C81DD679FB00AAE269 /* TMConcurrentObserverStore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TMConcurrentObserverStore; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB1A4CB1DD679FB00AAE269 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DB1A4D21DD67A0600AAE269 /* TMConcurrentObserverStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMConcurrentObserverStore.h; sourceTree = "<group>"; };
+		8DB1A4D31DD67A0600AAE269 /* TMConcurrentObserverStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMConcurrentObserverStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				8DB1A4CB1DD679FB00AAE269 /* main.m */,
+				8DB1A4D21DD67A0600AAE269 /* TMConcurrentObserverStore.h */,
+				8DB1A4D31DD67A0600AAE269 /* TMConcurrentObserverStore.m */,
 			);
 			path = TMConcurrentObserverStore;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DB1A4CC1DD679FB00AAE269 /* main.m in Sources */,
+				8DB1A4D41DD67A0600AAE269 /* TMConcurrentObserverStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
